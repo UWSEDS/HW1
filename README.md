@@ -31,13 +31,15 @@ Create a Jupyter notebook `hw1.ipynb` in `analysis` folder to analyze these data
 ## Problem
 In the notebook, please complete the following:
 1. Read the CSV file into a pandas dataframe `1pt`
-2. Add columns to the dataframe containing:
+2. In a comment cell, describe the columns in the dataframe and what data types they should be. If the data types in the dataframe do not match what you think they should be, update them. `1pt`
+3. Add columns to the dataframe containing:
    * The total (East + West) bicycle count `1pt`
    * The hour of the day `1pt`
    * The year `1pt`
-3. Create a new dataframe with the subset of data from the year 2016 `1pt`
-4. For the dataframe in `3.`, use pandas + matplotlib to plot the counts by hour. (i.e. hour of the day on the x-axis, total daily counts on the y-axis) `1pt`
-5. Lastly, use python (and pandas) programming to computationally determine what is (on average) the busiest hour of the day `1pt`
+4. Create a new dataframe with the subset of data from the year 2016 `1pt`
+5. For the dataframe in `3.`, are there any time points with missing data? If so, do something to make sure missing data does not impact parts 6 and 7. `1pt`
+6. For the dataframe in `3.`, use pandas + matplotlib to plot the counts by hour. (i.e. hour of the day on the x-axis, total daily counts on the y-axis) `1pt`
+7. For the dataframe in `3.`, Lastly, use python (and pandas) programming to computationally determine what is (on average) the busiest hour of the day `1pt`
 
 `Push your homework to GitHub. Please avoid uploading your data folder.` Extra cheer for people who use [.gitignore](https://git-scm.com/docs/gitignore) for this. 
 
