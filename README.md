@@ -23,7 +23,7 @@ Clone your git repository and create a directory called `project`.
 Inside `project`, create 2 subdirectories called `data` and `analysis` and 1 file `README.md` (files with `.md` format are [markdown files](https://www.markdownguide.org/cheat-sheet/) which GitHub renders for you). 
 
 Download the data from
-`https://data.seattle.gov/api/views/65db-xm6k/rows.csv?accessType=DOWNLOAD` and
+`https://data.seattle.gov/api/views/65db-xm6k/rows.csv` and
 put it in the `data` directory as `bicycle_data.csv`. 
 
 Create a Jupyter notebook `hw1.ipynb` in `analysis` folder to analyze these data.
