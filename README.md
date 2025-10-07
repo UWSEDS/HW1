@@ -10,7 +10,6 @@ bicycles crossing the Fremont Bridge since 2012 (as described in
 
 ```raw
 .
-├── ISSUE_TEMPLATE.md
 ├── LICENSE
 ├── README.md
 └── project
