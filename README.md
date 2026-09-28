@@ -9,14 +9,14 @@ bicycles crossing the Fremont Bridge since 2012 (as described in
 ## Folder Structure
 
 ```raw
-.
+packaging_tutorial/
 ├── LICENSE
+├── pyproject.toml
 ├── README.md
-└── project
-    ├── README.md
-    ├── analysis
-    │   └── hw1.ipynb
-    └── data
+├── src/
+│   └── hw1_YOUR_USERNAME_HERE/
+│       ├── __init__.py
+│       ├── hw1.py
         └── bicycle_data.csv
 ```
 
