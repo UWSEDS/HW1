@@ -20,15 +20,17 @@ packaging_tutorial/
         └── bicycle_data.csv
 ```
 
-Clone your git repository and create a directory called `project`.
+Clone your git repository and create a directory called `src`.
 
-Inside `project`, create 2 subdirectories called `data` and `analysis` and 1 file `README.md` (files with `.md` format are [markdown files](https://www.markdownguide.org/cheat-sheet/) which GitHub renders for you). 
+Inside `src`, create a subdirectories called `hw1_YOUR_USERNAME_HERE`.
+Make sure to replace `YOUR_USERNAME_HERE` with your GitHub username.
+Then, open `pyproject.toml` and change the line `name = "hw1"` under the `[project]` section to be `name = "hw1-YOUR-USERNAME-HERE"`; note that the underline(s) in the directory should be changed to hyphens/dashes.
 
 Download the data from
 `https://data.seattle.gov/api/views/65db-xm6k/rows.csv` and
-put it in the `data` directory as `bicycle_data.csv`. 
+put it in the `src` directory as `bicycle_data.csv`.
 
-Create a Jupyter notebook `hw1.ipynb` in `analysis` folder to analyze these data.
+Create a Python file named `hw1.py` also in the `src` folder to analyze these data.
 
 ## Instructions
 
