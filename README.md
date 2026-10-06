@@ -13,10 +13,10 @@ packaging_tutorial/
 ├── LICENSE
 ├── pyproject.toml
 ├── README.md
-├── src/
-│   └── hw1_YOUR_USERNAME_HERE/
-│       ├── __init__.py
-│       ├── hw1.py
+└── src/
+    └── hw1_YOUR_USERNAME_HERE/
+        ├── __init__.py
+        ├── hw1.py
         └── bicycle_data.csv
 ```
 
