@@ -8,19 +8,7 @@ bicycles crossing the Fremont Bridge since 2012 (as described in
 
 ## Folder Structure
 
-```raw
-./
-├── LICENSE
-├── pyproject.toml
-├── README.md
-└── src/
-    └── hw1_YOUR_USERNAME_HERE/
-        ├── __init__.py
-        ├── hw1.py
-        └── bicycle_data.csv
-```
-
-Clone your git repository and create a directory called `src`.
+Create a new directory called `hw1` in your CSE583 homeworks git repository and create a subdirectory called `src`.
 
 Inside `src`, create a subdirectories called `hw1_YOUR_USERNAME_HERE`.
 Make sure to replace `YOUR_USERNAME_HERE` with your GitHub username.
@@ -31,6 +19,22 @@ Download the data from
 put it in the `src` directory as `bicycle_data.csv`.
 
 Create a Python file named `hw1.py` also in the `src` folder to analyze these data.
+
+Copy the `pyproject.toml` and `LICENSE` files from this repo and add them to your directory.
+
+When you're done, your directory should look like this
+
+```raw
+hw1/
+├── LICENSE
+├── pyproject.toml
+├── README.md
+└── src/
+    └── hw1_YOUR_USERNAME_HERE/
+        ├── __init__.py
+        ├── hw1.py
+        └── bicycle_data.csv
+```
 
 ## Instructions
 
