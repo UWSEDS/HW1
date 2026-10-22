@@ -9,7 +9,7 @@ bicycles crossing the Fremont Bridge since 2012 (as described in
 ## Folder Structure
 
 ```raw
-packaging_tutorial/
+./
 ├── LICENSE
 ├── pyproject.toml
 ├── README.md
@@ -48,7 +48,7 @@ In the notebook, please complete the following:
 7. For the dataframe in `3.`, Lastly, use python (and pandas) programming to computationally determine what is (on average) the busiest hour of the day. (1pt)
 8. Describe your process for doing this homework. (If you used an AI assist, please tell us so here. It will not affect your grade as long as you tell us.) Answer this question by editing this README.md file. (1pt)
 
-**Push your homework to GitHub. Please avoid uploading your data folder.** Extra cheer for people who use [.gitignore](https://git-scm.com/docs/gitignore) for this.
+**Push your homework to GitHub. Please avoid uploading your data file.** Extra cheer for people who use [.gitignore](https://git-scm.com/docs/gitignore) for this.
 
 Note that we fully expect this analysis to cover some unfamiliar ground, and
 require teaching yourself a bit about Python and/or the Pandas package. Part of
@@ -61,7 +61,6 @@ website StackOverflow.
 A couple other online resources that might be helpful as you work through this:
 
 * [The Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) (free online) has a chapter devoted to Pandas
-* [Jake’s Jupyter Workflow Video Series](http://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/) shows some examples of working with this particular dataset in a Jupyter notebook.
 
 ## Hints
 
